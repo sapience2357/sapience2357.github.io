@@ -1,4 +1,3 @@
-remote_theme : mmistakes/minimal-mistakes
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -12,16 +11,16 @@ remote_theme : mmistakes/minimal-mistakes
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    :  "darK" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "darK" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "utf-8"
+title                    : "How To, What To"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "sapience"
+# description              : "An amazing website."
 url                      : "https://sapience2357.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -275,8 +274,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: True
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
